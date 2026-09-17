@@ -1,0 +1,90 @@
+/* ----BACKGROUND COLOR---- */
+body {
+  background-color: #edf3fc;
+  min-height: 100vh;
+  margin: 0;
+}
+/* ----HEADER BAR---- */
+.head-bar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: white;
+   color: black;
+   border-radius: 2px;
+   padding: 10px 20px;
+
+} 
+
+.logo {
+   display: flex;
+   align-items: center;
+   text-align: center;
+   text-decoration: none;
+   color: black;
+   gap: 10px;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 8px;
+   margin-left: 50px;
+    
+}
+
+.nav-links {
+    display:flex;
+    align-items: center;
+    list-style: none;
+    font-family:'Courier New', monospace; 
+    gap: 50px;
+    margin-left: 350px;
+}
+
+.nav-links a {
+        display: flex;
+        text-decoration: none;
+        color: black;
+        
+        
+}
+   
+.talk-button{
+
+        display:flex;
+        background-color: white;
+        color: black;
+        padding: 10px 20px;
+        border: 2px solid black;
+        border-radius: 25px;
+        cursor: pointer;
+        font-family: Arial, sans-serif;
+        margin-left: 400px;
+    }
+/*-----BODY CONTENT-----*/
+   
+.tagline {
+        display: table;   /* also shrinks to content, centers reliably */
+        margin-top: 90px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px;
+        background-color: #a8caf7;
+        color: #2c6cf5;
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+.heading{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 50px;
+    margin-bottom: 5px;
+    
+}
+
+.content {
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    color: black;
+    font-size: 15px;
+    margin-top: -10px;
+}
